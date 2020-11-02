@@ -23,7 +23,19 @@ public class TestAlbum{
         Album album1 = new Album("Now that’s what I call music 98", allSongs, "Universal Music", 2016);
 
         // couldn't remember how to do text-area
-        JOptionPane.showMessageDialog(null, "Name: " + ,
+        String album1Tracks = "";
+
+        JOptionPane.showMessageDialog(null, album1 + "\n\nTotal PLaying Time: " + album1.getPlayingTime() + "\n\n",
                                     "Album Information", JOptionPane.INFORMATION_MESSAGE);
+
+        album1.playTrack();
+
+        JOptionPane.showConfirmDialog(null,"Woulc you like to shuffle Album", JOptionPane.YES_NO_OPTION);
+        if(YES_OPTION)
+            album1.shuffle();
+        else
+            System.exit(0);
+
+        System.exit(0);
     }
 }
