@@ -24,7 +24,10 @@ public class TestAlbum{
 
         // couldn't remember how to do text-area
         String album1Tracks = "\t\tAlbum Tracks\n\n" +
-                              "";
+                              "Track Number   Title   Artist\n\n";
+        for(int i = 0; i < album1.getTracks().length; i++){
+            // ran out of time
+        }
 
         JOptionPane.showMessageDialog(null, album1 + "\n\nTotal PLaying Time: " + album1.getPlayingTime() + "\n\nalbum1Tracks",
                                     "Album Information", JOptionPane.INFORMATION_MESSAGE);

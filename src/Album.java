@@ -69,6 +69,6 @@ public class Album {
             JOptionPane.showMessageDialog(null, "Now playing track - details are as follows: \n\n" + tracks[requestedTrack].toString());
     }
     public void shuffle(){
-        Song[] shuffleSongs;
+        Song[] shuffleSongs; // more work to do
     }
 }
