@@ -47,4 +47,14 @@ public class album{
     public int getReleaseYear() {
         return releaseYear;
     }
+    public int getNumberOfTracks(){
+        return tracks.length;
+    }
+    public int getPlayingTime(){
+        int PlayingTime = 0;
+        for(int i = 0; i < tracks.length; i++){
+            PlayingTime += tracks[i].getDuration();
+        }
+        return PlayingTime;
+    }
 }
