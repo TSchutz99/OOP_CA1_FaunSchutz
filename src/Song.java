@@ -4,7 +4,7 @@
  *
  */
 public class Song {
-    private static int trackID;
+    private static int trackID = 1;
     private int trackNumber;
     private String title;
     private String artist;
@@ -21,6 +21,16 @@ public class Song {
         setReleaseYear(releaseYear);
     }
 
+    public String toString(){
+        return "Track Number: " + getTrackNumber() + "   Title: " + getTitle() + "   Artist: " + getTitle() +
+               "   Genre: " + getGenre() + " ";
+    }
+    private void setTrackNumber(int trackNumber) {
+        this.trackNumber = trackID++;
+    }
+    public int getTrackNumber() {
+        return trackNumber;
+    }
     public void setTitle(String title){
         this.title = title;
     }
