@@ -23,9 +23,10 @@ public class TestAlbum{
         Album album1 = new Album("Now that’s what I call music 98", allSongs, "Universal Music", 2016);
 
         // couldn't remember how to do text-area
-        String album1Tracks = "";
+        String album1Tracks = "\t\tAlbum Tracks\n\n" +
+                              "";
 
-        JOptionPane.showMessageDialog(null, album1 + "\n\nTotal PLaying Time: " + album1.getPlayingTime() + "\n\n",
+        JOptionPane.showMessageDialog(null, album1 + "\n\nTotal PLaying Time: " + album1.getPlayingTime() + "\n\nalbum1Tracks",
                                     "Album Information", JOptionPane.INFORMATION_MESSAGE);
 
         album1.playTrack();
