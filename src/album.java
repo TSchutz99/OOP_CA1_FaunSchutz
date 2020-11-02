@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /* By: Faun Schutz
  * Song.java
  * Start:
@@ -56,5 +58,10 @@ public class album{
             PlayingTime += tracks[i].getDuration();
         }
         return PlayingTime;
+    }
+    public void playTrack(){
+        int requestedTrack = Integer.parseInt(JOptionPane.showInputDialog("Which track would you like to play"));
+
+        if(requestedTrack > tracks.length && requestedTrack < )
     }
 }
