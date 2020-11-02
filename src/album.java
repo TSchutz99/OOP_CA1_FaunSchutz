@@ -66,6 +66,6 @@ public class album{
             JOptionPane.showMessageDialog(null, "An invalid track number as Supplied!, ",
                                             "Bad Track Number", JOptionPane.ERROR_MESSAGE);
         else
-            JOptionPane.showMessageDialog(null, "Now playing track - details");
+            JOptionPane.showMessageDialog(null, "Now playing track - details are as follows: \n\n" + tracks[requestedTrack].toString());
     }
 }
