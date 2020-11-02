@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /* By: Faun Schutz
  * TestAlbum.java
  * Start:
@@ -20,6 +22,8 @@ public class TestAlbum{
 
         Album album1 = new Album("Now that’s what I call music 98", allSongs, "Universal Music", 2016);
 
-
+        // couldn't remember how to do text-area
+        JOptionPane.showMessageDialog(null, "Name: " + ,
+                                    "Album Information", JOptionPane.INFORMATION_MESSAGE);
     }
 }

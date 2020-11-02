@@ -19,8 +19,8 @@ public class Album {
     }
 
     public String toString(){
-        return "Name: " + getName() + "   Tracks: " + getTracks() +
-               "   Producer: " + getProducer() + "   Release Year: " + getReleaseYear();
+        return "Name: " + getName() + "\n\nProducer: " + getProducer() + "\n\nRelease Year: " + getReleaseYear()+ "\n\nNumber of Tracks: " + getNumberOfTracks();
+
     }
     public void setName(String name) {
         if(name.equals(""))
