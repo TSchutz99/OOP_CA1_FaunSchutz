@@ -5,13 +5,13 @@ import javax.swing.*;
  * Start:
  *
  */
-public class album{
+public class Album {
     private String name;
     private Song[] tracks;
     private String Producer;
     private int releaseYear;
 
-    album(String name, Song[] tracks, String producer, int releaseYear){
+    Album(String name, Song[] tracks, String producer, int releaseYear){
         setName(name);
         setSong(tracks);
         setProducer(producer);

@@ -17,5 +17,9 @@ public class TestAlbum{
         allSongs[2] = song3;
         allSongs[3] = song4;
         allSongs[4] = song5;
+
+        Album album1 = new Album("Now that’s what I call music 98", allSongs, "Universal Music", 2016);
+
+
     }
 }
