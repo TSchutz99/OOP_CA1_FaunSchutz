@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 /* By: Faun Schutz
- * Song.java
+ * Album.java
  * Start:
  *
  */
