@@ -21,7 +21,10 @@ public class album{
                "   Producer: " + getProducer() + "   Release Year: " + getReleaseYear();
     }
     public void setName(String name) {
-        this.name = name;
+        if(name.equals(""))
+            name = "No name specified";
+        else
+            this.name = name;
     }
     public String getName() {
         return name;
